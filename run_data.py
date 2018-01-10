@@ -10,7 +10,7 @@ if __name__ == '__main__':
 	# print(dumps(print_message(argv[2]), indent=4, sort_keys=True))
     data = loads(argv[1])
     #print(dumps(print_message(data), indent=4, sort_keys=True))
-    print(data)
+    print(dumps(print_message(data), indent=4, sort_keys=True))
 
 
 
