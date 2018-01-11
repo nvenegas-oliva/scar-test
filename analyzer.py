@@ -15,7 +15,7 @@ def lambda_handler(event, context):
 
 if __name__ == '__main__':
     ## Load data for test
-    url_dataset = "data.txt"
+    url_dataset = "/home/data.txt"
     data = [line.strip() for line in open(url_dataset, 'r')]
     ## Use module
     #corpus = Corpus()
